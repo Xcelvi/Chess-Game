@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+img {
+    -webkit-user-drag: none; 
+}
+#chess_header {
+    color: gray;
+    display: flex;
+    justify-self: center;
+}
+#chess_square {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    aspect-ratio: 1/1;
+}
+#chess_black {
+    background-color: rgb(154, 126, 88);
+    aspect-ratio: 1/1;
+    height: 12.5%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+}
+#chess_white {
+    background-color: rgb(88, 68, 41);
+    aspect-ratio: 1/1;
+    height: 12.5%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px
+}
+.floating_piece {
+    position: absolute;
+    left: 100px;
+}
+#floating_piece_black_king {
+    position: absolute;
+}
